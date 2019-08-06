@@ -1,0 +1,23 @@
+h1{
+    /* border: solid; */
+    text-align: center
+}
+#free{
+    /* border: solid; */
+    text-align: center;
+}
+.innercontainer{
+    border: solid;
+    display: flex;
+    height: 50px;
+
+}
+.a{
+    border: solid;
+    text-align: center;
+
+}
+.b{
+    border: solid;
+    float: right;
+}
