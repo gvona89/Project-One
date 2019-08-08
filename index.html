@@ -9,24 +9,35 @@
 </head>
 <body>
     <div class="container">
-        <nav>Score</nav>
-        <h1>What Is?</h1>
+        <nav id="score">Score : <span id="bank"></span></nav>
+        <nav class="navbar">
+            <button class="drop">Category</button>
+            <div class="dropcontent">
+            <!-- <a href="#"><ul class="home"> </ul></a>   -->
+            <a href="#"><ul id="auto">Automotive</ul></a>  
+            <a href="#"><ul id="animal">Animals</ul></a>  
+            <a href="#"><ul id="food">Culinary</ul></a>  
+            <a href="#"><ul id="game">Video Media</ul></a>  
+            <a href="#"><ul id="flag">Flags</ul></a>  
+        </div>
+        </nav>
+        <h1>What Is </h1>
+
+
 
         <div id="free"><div class="picContainer">
             <div class="show">
-            <img src="img/alex.jpg  " id="pic"> 
+            <img src="img/merc.png" id="pic"> 
         <div class="buttonContainer">
-        <button onclick="changePic(-1)">Back</button>  
-        <button onclick="changePic(1)">Forward</button> 
+        <!-- <button onclick="changePic(-1)">Back</button>   -->
+        <button id="a" onclick="changePic(1)">A : <span id="ai"></span></button> 
+        <button id="b" onclick="changePic(1)">B : <span id="bi"></span> </button> </div>
+        <div class="buttonContainer1">
+        <button id="c" onclick="changePic(1)">C : <span id="ci"></span></button> 
+        <button id="d" onclick="changePic(1)">D : <span id="di"></span></button> 
         </div></div>
     </div>
         </div> 
-        <div class="innercontainer">
-            <div class="a">lckdvkndknj</div>
-            <div class="b">csdvlknvdnoi</div>
-            <div class="c"></div>
-            <div class="d"></div>
-        </div>
     </div>
     <script src="app.js"></script>
 </body>
