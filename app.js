@@ -1,6 +1,6 @@
 
 // start slideshow
-var pics = 
+var pics =
 // auto category
 ["img/merc.png",
 "img/audi.png",
@@ -25,16 +25,18 @@ var pics =
 "img/india.jpg",
 "img/kenya.jpg",
 "img/uae.jpg",
-"img/iraq.jpeg",
-]
+"img/iraq.jpeg",]
+
+
+
 var answerA = 
 // auto category
 ["Ferrari",
 "Audi",
-"Honda",
+"Lotus",
 "Toyota",
 // animal category
-"Bat",
+"Fox",
 "Duck",
 "Bull",
 "Rhino",
@@ -42,23 +44,23 @@ var answerA =
 "Chili",
 "Ribs",
 "Quiche",
-"Steak",
+"Porkloin",
 // media category
 "Nickelodeon",
-"Horde",
+"World of Warcraft",
 "Fallout",
 "Mortal Kombat",
 // flag category
 "Pakistan",
 "Kenya",
-"Saudi Arabia",
+"Oman",
 "Iran",
 ]
 var answerB = 
 // auto category
 ["Porsche",
 "Infinity",
-"Jeep",
+"Lincoln",
 "BMW",
 // animal category
 "Rat",
@@ -72,41 +74,41 @@ var answerB =
 "Steak",
 // media category
 "Cartoon Network",
-"Horde",
-"Triforce",
-"Mortal Kombat",
+"Minecraft",
+"Donkey Kong",
+"Tekken",
 // flag category
-"India",
-"Kenya",
-"UAE",
+"Bengladesh",
+"Ethiopia",
+"Somalia",
 "Iraq",
 ]
 var answerC = 
 // auto category
 ["Mercedes",
 "Acura",
-"Hyundai",
-"Tesla",
+"Landrover",
+"Mclaren",
 // animal category
 "Bat",
-"Duck",
-"Bull",
+"Woodpecker",
+"Rhino",
 "Dog",
 // food category
 "Burrito",
 "Chicken",
-"Pizza",
-"Steak",
+"Pot Pie",
+"Cucumber",
 // media category
-"Cartoon Network",
-"Horde",
-"Triforce",
-"Mortal Kombat",
+"PBS",
+"Spacecraft",
+"Final Fantasy",
+"Tomb Raider",
 // flag category
 "India",
-"Kenya",
-"UAE",
-"Iraq",
+"Ghana",
+"Yemen",
+"Saudi Arabia",
 ]
 var answerD = 
 // auto category
@@ -115,26 +117,31 @@ var answerD =
 "Lexus",
 "Tesla",
 // animal category
-"Bat",
-"Duck",
-"Bull",
+"Seagull",
+"Beaver",
+"Elephant",
 "Dog",
 // food category
 "Taco",
 "Pickles",
-"Pizza",
-"Steak",
+"Salad",
+"Liver",
 // media category
-"Cartoon Network",
-"Horde",
-"Triforce",
-"Mortal Kombat",
+"Warner Bros",
+"Diablo",
+"Legend of Zelda",
+"Dugeons and Dragons",
 // flag category
-"India",
-"Kenya",
+"Malaysia",
+"Chad",
 "UAE",
-"Iraq",
+"Pakistan",
 ]
+var cat = ["Cars", "Cars", "Cars", "Cars",
+"Animals", "Animals", "Animals", "Animals", 
+"Food", "Food", "Food", "Food", 
+"Games", "Games", "Games", "Games", 
+"Flags",  "Flags",  "Flags",  "Flags"]
 var imagesLength = pics.length - 1; 
 //assign the length of the array minus 1 to the variable imagesLength
 var currentSlide = 0;
@@ -154,6 +161,7 @@ if(currentSlide < 0){
 }
 //grab the pic in html and change source to current slide is set  in the array of pics
 document.getElementById("pic").src = pics[currentSlide]
+document.getElementById("cat").innerHTML = cat[currentSlide]
 document.getElementById("ai").innerHTML = answerA[currentSlide]
 document.getElementById("bi").innerHTML = answerB[currentSlide]
 document.getElementById("ci").innerHTML = answerC[currentSlide]
