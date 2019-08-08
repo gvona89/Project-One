@@ -1,5 +1,35 @@
+// correct=
+// " C: mercedes"
+// "A: audi"
+// "D: lexus"
+// "D: tesla"
+// "C: bat"
+// "A: duck"
+// "A: bull"
+// "C: dog"
+// "D: taco"
+// "A: ribs"
+// "B: pizza"
+// "B: steak"
+// "B: cartoon network"
+// "A: world of warcraft"
+// "D: legend of zelda"
+// "A: mortal kombat"
+// "C: india"
+// "A: kenya"
+// "D: UAE"
+// "B: iraq"
+/* if(answer === correct){
+    ('#bank) +('#amt') }
+    else{ ('#bank') -(#amt)
+    }
 
-// start slideshow
+
+
+*/
+
+
+// img array
 var pics =
 // auto category
 ["img/merc.png",
@@ -27,8 +57,7 @@ var pics =
 "img/uae.jpg",
 "img/iraq.jpeg",]
 
-
-
+// answers:
 var answerA = 
 // auto category
 ["Ferrari",
@@ -137,11 +166,19 @@ var answerD =
 "UAE",
 "Pakistan",
 ]
+// assigns category
 var cat = ["Cars", "Cars", "Cars", "Cars",
 "Animals", "Animals", "Animals", "Animals", 
 "Food", "Food", "Food", "Food", 
 "Games", "Games", "Games", "Games", 
 "Flags",  "Flags",  "Flags",  "Flags"]
+var amt = [100, 200, 300, 400,
+    100, 200, 300, 400,
+    100, 200, 300, 400,
+    100, 200, 300, 400,
+    100, 200, 300, 400,]
+
+// slide show function
 var imagesLength = pics.length - 1; 
 //assign the length of the array minus 1 to the variable imagesLength
 var currentSlide = 0;
@@ -161,6 +198,7 @@ if(currentSlide < 0){
 }
 //grab the pic in html and change source to current slide is set  in the array of pics
 document.getElementById("pic").src = pics[currentSlide]
+document.getElementById("amt").innerHTML = amt[currentSlide]
 document.getElementById("cat").innerHTML = cat[currentSlide]
 document.getElementById("ai").innerHTML = answerA[currentSlide]
 document.getElementById("bi").innerHTML = answerB[currentSlide]
@@ -168,3 +206,6 @@ document.getElementById("ci").innerHTML = answerC[currentSlide]
 document.getElementById("di").innerHTML = answerD[currentSlide]
 }
 // end slideshow
+
+
+
