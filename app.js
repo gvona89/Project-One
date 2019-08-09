@@ -1,4 +1,4 @@
-/*correct={}
+/*correct=[
 "mercedes",
 "audi",
 "lexus",
@@ -19,17 +19,22 @@
 "kenya",
 "UAE",
 "iraq"]
- if(answer == correct){
-    ('#amt') +('#bank') }
-    else{ ('#bank') -(#amt)
+ if(answer !== correct){
+    ('#bank') - (#amt)
+     }
+    else{ ('#amt') +('#bank')
     }
+ Number.parseFloat()
  
- 
+
  
  Noah's code solution for atm
     const getInputAmount = (inputElem) => {
   //parse input and return the amount as pennies
   let num = Math.floor(Number.parseFloat(inputElem.value)*100)
+  
+  let amt = Number.parseFloat(#amt.value)
+
 ​
   if(num < 0 || !num)
     return 0;
@@ -38,6 +43,28 @@
 }
 
 
+object.onclick = function(){myScript};
+
+working w supriya
+
+    let bank = 0     
+
+    grab the element in the 'amt' tag when any of 4 answer buttons are clicked
+    
+    let answerSelect = document.getElementById(answers)
+    
+    if the answer selected is not equal to the any answer in the array of correct answers then 
+    
+    if (answerSelect !== to correct){
+    
+        return "Incorrect" prompt and subtract 'amt' value to 'bank' (score) value
+    
+        alert("Incorrect")
+    
+        bank -= 'amt'
+             }
+    
+             else  return "Correct" prompt & add 'amt' value to 'bank' (score) value
 
 
 
@@ -46,7 +73,8 @@
 
 
 */
-
+// let bank = parseFloat(document.getElementbyId("bank").innerHTML);
+// console.log(bank);
 
 // img array
 var pics =
@@ -196,6 +224,7 @@ var amt = [100, 200, 300, 400,
     100, 200, 300, 400,
     100, 200, 300, 400,
     100, 200, 300, 400,]
+    
 
 // slide show function
 var imagesLength = pics.length - 1; 
