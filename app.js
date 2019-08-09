@@ -20,11 +20,13 @@ correct=[
 "UAE",
 "iraq"]
 
-let answer = document.getElementsByTagName('button')[i].innerText;
-    if(getElementsByTagName('button')[i] !== correct){
-        #bank - #amt
-    }
-    else(#bank + #amt);
+bank = parseInt(document.getElementById('bank').innerHTML);
+
+// let answer = document.getElementsByTagName('button')[i].innerText;
+//     if(answer !== correct){
+//         #bank - #amt
+//     }
+//     else(#bank + #amt);
 
 
 // for(let i = 0; correct.length; i++)
