@@ -1,4 +1,4 @@
-/*correct=[
+correct=[
 "mercedes",
 "audi",
 "lexus",
@@ -19,7 +19,25 @@
 "kenya",
 "UAE",
 "iraq"]
- if(answer !== correct){
+
+let answer = document.getElementsByTagName('button')[i].innerText;
+    if(getElementsByTagName('button')[i] !== correct){
+        #bank - #amt
+    }
+    else(#bank + #amt);
+
+
+// for(let i = 0; correct.length; i++)
+// getElementBytype(button)
+// addEventListener.onclick(button)
+//     if(){
+//         getelementbytype(button).innerText !== correct[i]
+//         return 'bank' - 'amt'
+//         else {'bank' + 'amt'
+//     }
+// }
+
+ /*if(answer !== correct){
     ('#bank') - (#amt)
      }
     else{ ('#amt') +('#bank')
@@ -44,35 +62,39 @@
 
 
 object.onclick = function(){myScript};
-
-working w supriya
-
-    let bank = 0     
-
-    grab the element in the 'amt' tag when any of 4 answer buttons are clicked
-    
-    let answerSelect = document.getElementById(answers)
-    
-    if the answer selected is not equal to the any answer in the array of correct answers then 
-    
-    if (answerSelect !== to correct){
-    
-        return "Incorrect" prompt and subtract 'amt' value to 'bank' (score) value
-    
-        alert("Incorrect")
-    
-        bank -= 'amt'
-             }
-    
-             else  return "Correct" prompt & add 'amt' value to 'bank' (score) value
-
-
-
-
-
-
-
 */
+// working w supriya
+
+    // let bank = 0     
+
+    // // grab the element in the 'amt' tag when any of 4 answer buttons are clicked
+    
+    // let answerSelect = document.getElementById(answers)
+    
+    // // if the answer selected is not equal to the any answer in the array of correct answers then 
+    
+    // if (answerSelect !== correct){
+    
+    //     // return "Incorrect" prompt and subtract 'amt' value to 'bank' (score) value
+    
+    //     alert("Incorrect")
+    
+    //     bank -= 'amt'
+    //          }
+    
+    //         //  else  return "Correct" prompt & add 'amt' value to 'bank' (score) value
+    //     else{
+    //         alert("Correct")
+
+    //         bank += 'amt'
+    //     }
+
+// end of working if
+
+
+
+
+
 // let bank = parseFloat(document.getElementbyId("bank").innerHTML);
 // console.log(bank);
 
