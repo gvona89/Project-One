@@ -1,28 +1,47 @@
-// correct=
-// "mercedes"
-// "audi"
-// "lexus"
-// "tesla"
-// "bat"
-// "duck"
-// "bull"
-// "dog"
-// "taco"
-// "ribs"
-// "pizza"
-// "steak"
-// "cartoon network"
-// "world of warcraft"
-// "legend of zelda"
-// "mortal kombat"
-// "india"
-// "kenya"
-// "UAE"
-// "iraq"
-/* if(answer == correct){
-    ('#bank) +('#amt') }
+/*correct={}
+"mercedes",
+"audi",
+"lexus",
+"tesla",
+"bat",
+"duck",
+"bull",
+"dog",
+"taco",
+"ribs",
+"pizza",
+"steak",
+"cartoon network",
+"world of warcraft",
+"legend of zelda",
+"mortal kombat",
+"india",
+"kenya",
+"UAE",
+"iraq"]
+ if(answer == correct){
+    ('#amt') +('#bank') }
     else{ ('#bank') -(#amt)
     }
+ 
+ 
+ 
+ Noah's code solution for atm
+    const getInputAmount = (inputElem) => {
+  //parse input and return the amount as pennies
+  let num = Math.floor(Number.parseFloat(inputElem.value)*100)
+​
+  if(num < 0 || !num)
+    return 0;
+​
+  return num;
+}
+
+
+
+
+
+
 
 
 
@@ -149,7 +168,7 @@ var answerD =
 "Seagull",
 "Beaver",
 "Elephant",
-"Dog",
+"Squirrel",
 // food category
 "Taco",
 "Pickles",

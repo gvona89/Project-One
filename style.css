@@ -12,14 +12,18 @@
 }
 #category{
     font-size: 1.5em;
+
 }
 
+#amount{
+    font-size: 1.5em;
+}
 
 h1{
     /* border: solid; */
     font-size: 3em;
     text-align: center;
-    padding-top: 35px;
+    /* padding-top: 35px; */
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -45,113 +49,12 @@ h1{
 /* header */
 
 #score{
-    font-size: 2em;
-    left: 75px;
+    font-size: 1.5em;
+    text-align: center;
     position: relative;
 }
-.navbar{
-    text-align: right;
-    margin-top: -2%;
-    position: absolute;
-    right: 75px;
-    
-}
-.navbar:hover .dropcontent{
-    display: block;
-    text-align: center;
-    /* background-color: white;
-    border-radius: 40%; */
-    /* padding-top: 10px;
-    padding-right: 30px; */
-    
-    
-}
-.drop{
-    color: black;
-    font-family: retro2;
 
-    font-size: 2em;
-    border: none;
-}
-.dropcontent{
-    display: none;
-}
 
-.dropcontent a{
-    color: black;
-    text-decoration: none;
-    margin: 0;
-}
-
-#auto{
-    background-color: white;
-    /* border: solid; */
-    border-radius: 40%;
-    padding-top: 10px;
-    padding-right: 30px;
-    /* box-shadow: 1px 1px black; */
-}
-
-#auto:hover{
-    color: white;
-    border-color: black;
-    background-color: black;
-
-    /* color: silver; */
-}
-#animal{
-    /* border: solid; */
-    padding-top: 10px;
-    padding-right: 30px;
-    background-color: white;
-    border-radius: 40%;
-    /* box-shadow: 1px 1px black; */
-}
-#animal:hover{
-    color: white;
-    border-color: black;
-    background-color: black;
-}
-#game{
-    /* border: solid; */
-    padding-top: 10px;
-    padding-right: 30px;
-    background-color: white;
-    border-radius: 40%;
-    /* box-shadow: 1px 1px black; */
-}
-#game:hover{
-    background-color: black;
-    border-color: black;
-    color: white;
-}
-#food{
-    /* border: solid; */
-    padding-top: 10px;
-    padding-right: 30px;
-    background-color: white;
-    border-radius: 40%;
-    /* box-shadow: 1px 1px black; */
-
-}
-#food:hover{
-    background-color: black;
-    border-color: black;
-    color: white;
-}
-#flag{
-    /* border: solid; */
-    padding-top: 10px;
-    padding-right: 30px;
-    background-color: white;
-    border-radius: 40%;
-    /* box-shadow: 1px 1px black; */
-}
-#flag:hover{
-    background-color: black;
-    border-color: black;
-    color: white;
-}
 #pic{
     border-radius: 50%;
 }
@@ -161,55 +64,55 @@ button{
     font-family: retro;
     
 }
-#a{
+#a:hover{
     color: black;
     font-size: 1em;
     border-color: white;
     background-color: white;
     border-radius: 50%;
 }
-#a:hover{
+#a{
     color: white;
     font-size: 1em;
     background-color: black;
     border-radius: 50%;
 }
 
-#b{
+#b:hover{
     color: black;
     font-size: 1em;
     border-color: white;
     background-color: white;
     border-radius: 50%;
 }
-#b:hover{
+#b{
     color: white;
     font-size: 1em;
     background-color: black;
-    border-radius: 50%;
-}
-#c{
-    color: black;
-    font-size: 1em;
-    border-color: white;
-    background-color: white;
     border-radius: 50%;
 }
 #c:hover{
-    color: white;
-    font-size: 1em;
-    background-color: black;
-    border-radius: 50%;
-}
-
-#d{
     color: black;
     font-size: 1em;
     border-color: white;
     background-color: white;
     border-radius: 50%;
 }
+#c{
+    color: white;
+    font-size: 1em;
+    background-color: black;
+    border-radius: 50%;
+}
+
 #d:hover{
+    color: black;
+    font-size: 1em;
+    border-color: white;
+    background-color: white;
+    border-radius: 50%;
+}
+#d{
     color: white;
     font-size: 1em;
     background-color: black;
